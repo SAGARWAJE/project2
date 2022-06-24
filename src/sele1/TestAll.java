@@ -73,6 +73,9 @@ public class TestAll {
 		 
 	     action.dragAndDrop(image, trash);
 	     action.perform();
-	     
+	     //new addedd for git hub
+	     WebDriver new = AccessanyURL.openBrowser("https://demoqa.com/frames");
+   	     WebElement frame1 = new.findElement(By.xpath("//iframe[@id=\"frame1\"]"));
+    	 frame1.click();
 	}
 }
